@@ -33,16 +33,16 @@ __Non-map Pages:__
 
 To classify PDF pages as maps (alignment sheets) or non-maps, we employ machine learning-based classification algorithms. Feature extraction is a key component of this process, and we derive features such as:
 
-Image-related features: Number of images on a page, total image area.
-Text-based features: Word count and presence of key terms (e.g., "North," "N," "Figure," "Map," "Alignment Sheet," "Sheet," "Legend," "Scale," "Kilometers," "km").
+- Image-related features: Number of images on a page, total image area.
+- Text-based features: Word count and presence of key terms (e.g., "North," "N," "Figure," "Map," "Alignment Sheet," "Sheet," "Legend," "Scale," "Kilometers," "km").
 After extracting these features, we train multiple classification models, including:
 
-XGBoost Classifier
-Support Vector Classifier (SVC)
-Decision Tree Classifier
-Random Forest Classifier
-Random Forest Regressor
-XGBoost Regressor
+- XGBoost Classifier
+- Support Vector Classifier (SVC)
+- Decision Tree Classifier
+- Random Forest Classifier
+- Random Forest Regressor
+- XGBoost Regressor
 Since regression models output continuous values, we convert their predictions into binary labels, allowing direct comparison with classification models. The models' performance is assessed using accuracy metrics and confusion matrices on both the training and test sets. The best-performing model is then selected and saved for future use.
 
 Folder Structure:
