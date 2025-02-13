@@ -29,7 +29,8 @@ Random Forest Regressor
 XGBoost Regressor
 Since regression models output continuous values, we convert their predictions into binary labels, allowing direct comparison with classification models. The models' performance is assessed using accuracy metrics and confusion matrices on both the training and test sets. The best-performing model is then selected and saved for future use.
 
-Folder Structure
+Folder Structure:
+
 📂 Training Set – Contains files used to prepare the training and test datasets.
 
 📂 Validation Set – Holds files for validating trained models and identifying the best-performing one.
