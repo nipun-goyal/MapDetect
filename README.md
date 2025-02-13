@@ -44,6 +44,7 @@ After extracting these features, we train multiple classification models, includ
 - Random Forest Classifier
 - Random Forest Regressor
 - XGBoost Regressor
+
 Since regression models output continuous values, we convert their predictions into binary labels, allowing direct comparison with classification models. The models' performance is assessed using accuracy metrics and confusion matrices on both the training and test sets. The best-performing model is then selected and saved for future use.
 
 Folder Structure:
