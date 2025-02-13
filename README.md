@@ -15,10 +15,11 @@ At CER, we process regulatory applications from companies that contain thousands
 
 Map Pages:
 
-![Map 1](images/map_1.PNG)
-![Map 1](images/map_2.PNG)
-![Map 1](images/map_2.PNG)
-
+<p align="center">
+  <img src="images/map_1.PNG" width="30%" />
+  <img src="images/map_2.PNG" width="30%" />
+  <img src="images/map_3.PNG" width="30%" />
+</p>
 
 
 # Approach
