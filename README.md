@@ -35,6 +35,7 @@ To classify PDF pages as maps (alignment sheets) or non-maps, we employ machine 
 
 - Image-related features: Number of images on a page, total image area.
 - Text-based features: Word count and presence of key terms (e.g., "North," "N," "Figure," "Map," "Alignment Sheet," "Sheet," "Legend," "Scale," "Kilometers," "km").
+
 After extracting these features, we train multiple classification models, including:
 
 - XGBoost Classifier
