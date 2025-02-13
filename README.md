@@ -13,7 +13,7 @@ Key Features:
 
 At CER, we process regulatory applications from companies that contain thousands of pages of documentation. To streamline document analysis, we aim to develop a Machine Learning model capable of automatically distinguishing map pages (also known as alignment sheets) from non-map pages.
 
-## Map Pages:
+__Map Pages:__
 
 <p align="center">
   <img src="images/map_1.PNG" width="30%" />
@@ -21,7 +21,7 @@ At CER, we process regulatory applications from companies that contain thousands
   <img src="images/map_3.PNG" width="30%" />
 </p>
 
-## Non-map Pages:
+__Non-map Pages:__
 
 <p align="center">
   <img src="images/page_1.PNG" width="30%" />
