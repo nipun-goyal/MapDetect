@@ -197,6 +197,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+mapdetect/
 
 # Spyder project settings
 .spyderproject

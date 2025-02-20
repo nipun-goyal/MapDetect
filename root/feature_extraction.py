@@ -2,26 +2,23 @@ import pandas as pd
 from string import digits
 import fitz
 
-def count_words_in_str(long_str, keys):
+def count_words_in_str(long_str: str, keys: list) -> int:
     """
-    It counts the sum of number of times each element in the array "keys" occurs in the string "long_str".
+    Count words in a string that contain any of the specified substrings.
 
-    Parameters
-    -----------
-    long_str: The long string which needs to be checked for the count of words.
+    Args:
+        long_str (str): The input string to search through
+        keys (list): List of substrings to look for within words
 
-    keys: The array of keys for which we need to count the occurrence of.
+    Returns:
+        int: Number of words containing any of the given substrings
 
-    Returns
-    --------
-    count: The sum of number of times each element in the array Keys occurs in the string "long_str"
-
-    Sample Output:
-    --------------
-    count_words_in_str("vibudh rocks dh dh ddh",["vi", "dh"])
-    Output: 5
+    Example:
+        >>> text = "The cat and dog are playing"
+        >>> search_keys = ["cat", "dog"]
+        >>> count_words_in_str(text, search_keys)
+        2
     """
-
     count = 0
     for word in long_str.split():
         for key in keys:
